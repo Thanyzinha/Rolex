@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rolex</title>
+</head>
+<body>
+<style>
+        body{
+ 		background-image: linear-gradient(to right, #000000, #093219, #000000);
+		}
+		:root{
+			--cor-fundo:rgb(10, 10, 10);
+			--cor-hover:rgb(3, 22, 6);
+			--cor-primaria:rgb(252, 244, 244); 
+		}
+		.dp-menu ul{
+			list-style-type: none;
+			padding: 0;
+		}
+		.dp-menu ul{
+			background-color: var(--cor-fundo);
+		}
+		.dp-menu ul li{
+			display: inline;
+			position: relative;
+		}
+		.dp-menu ul li a {
+			color: var(--cor-primaria);
+			text-decoration: none;
+			display: inline-block;
+			padding: 20px;
+			transition:background .3s ;
+		}
+		.dp-menu ul li a:hover{
+			background-color: var(--cor-hover);
+		}
+
+		/*sub menu*/
+		.dp-menu ul ul {
+   			display: none;
+			left: 0;
+			position: absolute;
+		}
+
+		.dp-menu ul li:hover ul {
+   			display: block;
+		}
+
+		.dp-menu ul ul {
+			width: 150px
+		}
+
+		.dp-menu ul ul li a {
+			display: block;
+		}
+        img{
+            text-align: center;
+        }
+
+	</style>
+</head>
+ 
+<body>
+    body>
+	<nav class="dp-menu">
+        <ul>
+            <li><a href="#">Relógios</a>
+                <ul>
+                    <li><a href="">Day-Date
+					</a></li>
+                    <li><a href="">Datejust</a></li>
+                    <li><a href="">Oyster Perpetual</a></li>
+                    <li><a href="">Sky-Dweller</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    <img src="https://wallpapercave.com/wp/wp3274958.jpg" width="1450">
+
+</body>
+</html>
